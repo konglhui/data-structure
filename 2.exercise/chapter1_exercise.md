@@ -1,7 +1,7 @@
 
 
 1练习
-#强化
+# 强化
 **R-1.1** Write a short Python function, is multiple(n, m), that takes two integer values and returns True if n is a multiple of m, that is, n = mi for some integer i, and False otherwise. 
 
 写一个短的python函数，is_multiple（m，n）并且如果n是m的倍数返回True，否则返回False。
@@ -136,7 +136,7 @@ def choice(data):
 	return a 
 print(choice(data))
 ```
-#创造
+# 创造
 **C-1.13** Write a pseudo-code description of a function that reverses a list of n integers, so that the numbers are listed in the opposite order than they were before, and compare this method to an equivalent Python function for doing the same thing.
 写一个转置n的整数的列表函数的伪随机代码，让这个列表顺序与原来相反。对比这个方法与python函数的方法。
 ```
@@ -386,7 +386,7 @@ v = [1,34,6,4,3,23]
 c = norm(v,3)
 print(c)
 ```
-#项目
+# 项目
 **P-1.29** Write a Python program that outputs all possible strings formed by using the characters c , a , t , d , o , and g exactly once.
 写一个程序输出只包含一次 c , a , t , d , o , 和 g所有可能的字符串。
 ```
