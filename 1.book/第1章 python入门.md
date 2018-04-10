@@ -26,15 +26,15 @@ Python命令中最重要的就是赋值语句，例如：
 
 temperature= 98.6
 
-在这个命令中建立了一个temperature的标示符，然后把他关联到对象（等号右边）上，在这个例子中，这个浮点型对象的值是98.6.。描述这个任务的结果在下图。                         
+在这个命令中建立了一个temperature的标示符，然后把他关联到对象（等号右边）上，在这个例子中，这个浮点型对象的值是98.6.。描述这个任务的结果在下图。
 
-![1](E:\github\data-structure\1.book\1.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/HDjaD5bj3D.png)
 
 **标示符：**
 
 标示符在python中对大小写是非常敏感的，所以temperature和Temperature是两个不同的名字。标示符能由字母、数字和_(下划线)组成，但首字节不能由数字开始，并且由33各特殊的已保存单词，不能作为标示符。
 
-![](E:\github\data-structure\1.book\2.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/gJ6j791JHa.png)
 
 对于读者熟悉的其他编程语言来说，python标示符的语法与Java或C++在引用变量上市非常相似的。每一个标示符都有一个内存地址指向一个对象。Python标示符有一个特殊的对象None，与Java和C++里面的null类似。
 
@@ -44,11 +44,11 @@ temperature= 98.6
 
 ​         original = temperature
 
- ![3.](E:\github\data-structure\1.book\3..png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/fjHDBDe20l.png)
 
 ​         temperature =temperature + 5.0
 
- ![4](E:\github\data-structure\1.book\4.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/FeB3Cmaj7A.png)
 
  
 
@@ -268,7 +268,7 @@ def fibonacci():
 
 在python中每个不同的作用域都抽象的来表示名称空间。一个名称空间管理者所有的在个定范围内当前定义的标示符。图1.8描绘了两个命名空间。其中一个是1.5节的计数函数。另一个是函数执行过程中的局部命名空间。
 
-![5](E:\github\data-structure\1.book\5.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/0KAb7fHmcA.png)
 
 Python用字典实现了名称空间，他的每一个字符串对应着一个值。Python提供了若干的方法检查名称空间。在命名空间中dir函数返回标识符的名字，这个函数的值返回的是字典。在默认情况下，调用dir（）和vars（）报告，在它们被执行的最本地封闭的名称空间中。
 
@@ -281,7 +281,7 @@ Python用字典实现了名称空间，他的每一个字符串对应着一个�
  ```
 scream = print
 scream('hello')
-```
+ ```
 
 
 
@@ -332,7 +332,7 @@ Python的import把一个模块加载到当前的命名空间。Import使用语�
 
 表1.7提供了学习数据结构一些经常使用的相关的模块。我们已经简单的讨论了math模块，在这节余下的部分，我们强调一些其他的模块，这些模块在这本书中对一些数据结构和算法是非常重要的。
 
-![6](E:\github\data-structure\1.book\6.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/LB8FgcA8kl.png)
 
 **伪随机数生成**
 
@@ -346,4 +346,4 @@ Python的随机数生成了提供了一种能生成伪随机数的能力，也�
 
 Python的随机模块对于通过定义random类生成伪随机数提供了支持，类的实例的服务作为生成器是独立的部分。这允许了一个项目的不同部分依靠着自己的伪随机数生成器，以至于调用一个生成器不影响其他已经生成的序列。为方便起见，随机类支持的所有方法也作为随机模块的独立函数支持。（基本使用一个生成器实例就能满足所有高层次的调用）
 
-![7](E:\github\data-structure\1.book\7.png)
+![mark](http://p6yio0wew.bkt.clouddn.com/blog/180410/hcLBkBGCH6.png)
